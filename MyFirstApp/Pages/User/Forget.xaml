@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyFirstApp.Pages.User.Forget"
+             Title="¿Olvidaste la constraseña?">
+    <VerticalStackLayout Margin="20">
+        <Image
+            Source="logo"
+            Margin="0,0,0,40"
+            WidthRequest="200" />
+        <Label
+            FontSize="Body"
+            Margin="0,0,0,20"
+            Text="Si no recuerdas tu contraseña, ingresa el correo electrónico registrado y te enviaremos la instrucciones para restablecerla"
+            VerticalOptions="Center" />
+        <Entry
+            Keyboard="Email"
+            Placeholder="Correo electrónico"
+            Margin="0,0,0,20" />
+        <Button
+            Text="RESTABLECER CONTRASEÑA" />
+    </VerticalStackLayout>
+</ContentPage>
